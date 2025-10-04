@@ -121,7 +121,6 @@ python GATE.py --mode predict \
 *   `--mode`: `predict`
 *   `--model_path`: Path to the trained model file (default: `GATE_model.pth`)
 *   `--data_path`: Path to the input transcriptome data CSV file for prediction (same format as training data)
-*   **Note:** Model architecture parameters (e.g., `--hidden_size`, `--num_channels`) must match those used during training
 
 ## Important Notes
 
