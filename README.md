@@ -27,7 +27,8 @@ This repository contains a PyTorch implementation of a GATE Model. It provides f
    It is highly recommended to use a virtual environment.
 
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
+   conda activate gate_env
    ```
 
 ## Usage
@@ -45,7 +46,7 @@ To train the model, use the `train` mode. You can specify various model and trai
 ```bash
 python GATE.py --mode train \
 			   --data_path tra_data.csv \
-               --pheno_path pheno_data.csv \
+               --pheno_path pheno_data.csv
 ```
 
 By default, this will train for 500 epochs with batch size 32, hidden size 64, 8 CNN channels, and instance normalization. Results will be saved to `results.txt` and the model to `GATE_model.pth`.
