@@ -2,7 +2,7 @@
 
 This repository contains a PyTorch implementation of a GATE Model. It provides functionalities for training the model and making predictions using a command-line interface.
 
-## <img src="https://badgen.net/badge/Python/3.10+/blue?" alt="Python" width="200"/><img src="https://badgen.net/badge/Pytorch/2.10/orange?" alt="Pytorch" width="200"/><img src="https://badgen.net/badge/Cuda/12.1/pink?" alt="Cuda" width="170"/>
+## <img src="https://badgen.net/badge/Python/3.10+/blue?" alt="Python" width="100"/><img src="https://badgen.net/badge/Pytorch/2.10/orange?" alt="Pytorch" width="100"/><img src="https://badgen.net/badge/Cuda/12.1/pink?" alt="Cuda" width="70"/>
 
 ## Features
 
