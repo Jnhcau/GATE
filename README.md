@@ -44,8 +44,8 @@ To train the model, use the `train` mode. You can specify various model and trai
 
 ```bash
 python GATE.py --mode train \
-							   --data_path tra_data.csv \
-                               --pheno_path pheno_data.csv \
+			   --data_path tra_data.csv \
+               --pheno_path pheno_data.csv \
 ```
 
 By default, this will train for 500 epochs with batch size 32, hidden size 64, 8 CNN channels, and instance normalization. Results will be saved to `results.txt` and the model to `GATE_model.pth`.
