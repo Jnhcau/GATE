@@ -10,26 +10,6 @@ This repository contains a PyTorch implementation of a GATE Model. It provides f
 - Gated attention mechanism for dynamically weighting key features.
 - Flexible normalization options: batch, group, layer, instance, or none.
 - Supports L1 regularization on gate weights for feature selection.
-- Command-line interface for training and prediction.
-- Reproducible cross-validation with configurable repeats.
-
-## Installation
-
-1. **Clone the repository (if not already done):**
-
-   ```bash
-   git clone <(https://github.com/Jnhcau/GATE))>
-   cd GATE
-   ```
-
-2. **Install dependencies:**
-
-   It is highly recommended to use a virtual environment.
-
-   ```bash
-   conda env create -f environment.yml
-   conda activate gate_env
-   ```
 
 ## Usage
 
@@ -129,4 +109,3 @@ python GATE.py --mode predict \
 *   **Feature Importance:** After training, the script will save a CSV file with gene importance scores, derived from the model's gate weights, to the same directory as `result_txt`.
 
 Feel free to contribute or suggest improvements!
-
